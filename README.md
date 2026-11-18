@@ -49,15 +49,15 @@ O usuário cadastra hábitos (beber água, estudar, caminhar...), marca dia a di
 
 | Hoje | Hábitos |
 |---|---|
-| ![Tela Hoje](docs/prints/hoje.png) | ![Tela Hábitos](docs/prints/habitos.png) |
+| ![Tela Hoje](docs/prints/hoje.jpeg) | ![Tela Hábitos](docs/prints/habitos.jpeg) |
 
 | Novo hábito | Histórico |
 |---|---|
-| ![Formulário](docs/prints/formulario.png) | ![Tela Histórico](docs/prints/historico.png) |
+| ![Formulário](docs/prints/formulario.jpeg) | ![Tela Histórico](docs/prints/historico.jpeg) |
 
 | Configurações | Menu lateral |
 |---|---|
-| ![Tela Configurações](docs/prints/configuracoes.png) | ![Drawer](docs/prints/drawer.png) |
+| ![Tela Configurações](docs/prints/configuracoes.jpeg) | ![Drawer](docs/prints/drawer.jpeg) |
 
 ---
 
@@ -207,27 +207,4 @@ CREATE TABLE registro (
 
 ---
 
-## Requisitos do trabalho
 
-| Requisito | Onde foi atendido |
-|---|---|
-| Projeto Expo | Criado com Expo, executa no Expo Go |
-| Componentes e props | `Botao`, `CampoTexto`, `HabitCard`, `EmptyState` (em `src/components`) |
-| StyleSheet e Flexbox | Todas as telas e componentes, com cores, espaçamentos e fontes padronizados |
-| `useState` e `useEffect` | Todas as telas carregam seus dados ao abrir |
-| Formulários | Cadastro de hábito e Configurações: `TextInput` controlado, validação e mensagem de erro |
-| Navegação | Stack com parâmetro (`habitoId`) combinado com Tab e Drawer, 5 telas |
-| Listas | `FlatList` em Hoje e Hábitos; `SectionList` no Histórico, todas com `keyExtractor` e lista vazia |
-| SQLite | CRUD completo com `expo-sqlite` em `src/database` |
-| AsyncStorage | Nome do usuário e tema, salvos e recuperados |
-| Organização | Pastas `screens/`, `components/`, `database/` e `navigation/` |
-
----
-
-## Divisão de tarefas
-
-| Integrante | Responsabilidades |
-|---|---|
-| Vinicyus Raya | Codigo |
-| Braian Elizeu | Codigo |
-| Mariana Miguel | Parte visual e alguns trechos de cod |
